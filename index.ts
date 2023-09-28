@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 
-import { readFileSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import isShipmentFile from "./helpers/isShipmentFile";
 import assignShipments from "./helpers/assignShipments";
 
@@ -31,6 +31,12 @@ if ( argv.length < 2) {
 
   console.log("Total SS:", outputData.totalSS);
   console.log("Assignments:", outputData.assignments);
+
+  // Create results folder if it doesn't exist
+  const resultsFolder = `${import.meta.dir}/results`;
+  if (!existsSync(resultsFolder)) {
+    mkdirSync(resultsFolder);
+  }
   
   const outputDataFileName = new Date().toISOString().replace(/:/g, "-");
   const outputDataFilePath = `${import.meta.dir}/results/${outputDataFileName}.json`;
