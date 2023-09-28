@@ -67,7 +67,7 @@ acme-dispatch [shipments-file] [drivers-file]
 
 ## Examples
 
-For you convinience, I've included to files in `/data`
+For you convinience, I've included two files in the `/data` directory.
 
 ```bash
 bun . data/shipments.txt data/drivers.txt
