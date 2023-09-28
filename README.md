@@ -4,25 +4,31 @@
 
 ## Prerequisites
 
-- Node.js (version 18.10.0 or above)
+- bun.js (version 18.10.0 or above)
 - npm (version 8.x.x or above)
 - Bun.sh (version 1.0.3 or above)
 
 ## Installation
 
-1. Clone the repository:
+1. Install Bun
+
+   ```bash
+   npm i -g bun
+   ```
+
+2. Clone the repository:
 
    ```bash
    git clone https://github.com/ramzihizi/acme-dispatch.git
    ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
    ```bash
    cd acme-dispatch
    ```
 
-3. Install dependencies:
+4. Install dependencies:
 
    ```bash
    bun install
@@ -35,13 +41,13 @@
 Run the application with:
 
 ```bash
-node index.js [shipments-file] [drivers-file]
+bun index.ts [shipments-file] [drivers-file]
 ```
 
 or
 
 ```bash
-node . [shipments-file] [drivers-file]
+bun . [shipments-file] [drivers-file]
 ```
 
 or
@@ -61,8 +67,10 @@ acme-dispatch [shipments-file] [drivers-file]
 
 ## Examples
 
+For you convinience, I've included to files in `/data`
+
 ```bash
-node . shipments.txt drivers.txt
+bun . data/shipments.txt data/drivers.txt
 ```
 
 ## Testing
@@ -88,6 +96,11 @@ bun test:e2e
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature/my-new-feature`
 5. Submit a pull request.
+
+## Resources and Docs
+
+- [bun.sh](https://bun.sh/docs)
+- [nodejs](https://nodejs.org/en)
 
 ## License
 
