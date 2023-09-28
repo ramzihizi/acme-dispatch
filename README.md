@@ -4,9 +4,9 @@
 
 ## Prerequisites
 
-- bun.js (version 18.10.0 or above)
+- node.js (version 18.10.0 or above)
 - npm (version 8.x.x or above)
-- Bun.sh (version 1.0.3 or above)
+- bun.sh (version 1.0.3 or above)
 
 ## Installation
 
