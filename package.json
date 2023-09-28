@@ -1,0 +1,19 @@
+{
+  "name": "acme-dispatch",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test:unit": "bun test tests/unit",
+    "test:e2e": "bun test tests/e2e"
+  },
+  "bin": {
+    "acme-dispatch": "./index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

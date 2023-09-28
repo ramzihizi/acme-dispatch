@@ -1,0 +1,20 @@
+123 Elm St, Springfield, IL 62704
+456 Oak Ave, Orlando, FL 32801
+789 Maple Dr, Austin, TX 78701
+101 Birch Ln, Denver, CO 80203
+112 Cedar Pl, Atlanta, GA 30303
+134 Pine Ct, Seattle, WA 98101
+157 Willow Blvd, Boston, MA 02108
+178 Aspen Way, San Francisco, CA 94102
+202 Spruce Rd, Phoenix, AZ 85003
+225 Hawthorn St, Los Angeles, CA 90012
+248 Redwood Ave, New York, NY 10001
+263 Magnolia Cir, Chicago, IL 60601
+299 Juniper Cres, Houston, TX 77002
+314 Fir Pl, Philadelphia, PA 19102
+328 Teak Ln, San Diego, CA 92101
+344 Hemlock St, Dallas, TX 75201
+369 Sycamore Dr, Nashville, TN 37201
+384 Sequoia Rd, Las Vegas, NV 89101
+405 Olive Way, Miami, FL 33128
+421 Beech Ave, Portland, OR 97204

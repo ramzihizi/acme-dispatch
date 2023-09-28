@@ -1,0 +1,13 @@
+{
+  "totalSS": 11.5,
+  "assignments": [
+    {
+      "shipment": "123 Maple St, Anytown, MD 21040",
+      "bestDriver": "Alice Johnson"
+    },
+    {
+      "shipment": "456 Oak Ave, Orlando, FL 32801",
+      "bestDriver": "Bob Smith"
+    }
+  ]
+}
